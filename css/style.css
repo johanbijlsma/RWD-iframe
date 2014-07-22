@@ -1,0 +1,107 @@
+body{
+	background: #999;
+	margin: 0 0;
+	line-height: 16px;
+	font-family: 'helvetica neue', 'sans-serif';
+
+}
+
+body:after{
+ 				content: "desktop";
+ 				position: absolute;
+ 				bottom: 30;
+ 				right: 10;
+ 				font-size: 3em;
+ 				color: 000;
+ 				opacity: 0.3;
+ 				font-family: impact;
+ 			}
+
+footer{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	font-family: 'Dosis';
+}
+
+footer *{
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+}
+.container{
+	margin: 20px auto;
+	background: rgba(255, 255, 255, 0.5);
+	width: 80%;
+	padding: 1.5em;
+	border: 2px dashed rgba(0,0,0,0.4)
+}
+
+iframe{
+	width: 100%;
+	min-height: 500px;
+	margin-top: 1em; 
+}
+
+.no_iframe{
+	display: none;
+}
+
+
+@media screen and (max-width: 720px) {
+ 			body{
+ 				background:	darkred;
+ 				color: #fff;
+ 			}
+
+ 			body:after{
+ 				content: "tablet";
+ 				position: absolute;
+ 				bottom: 30;
+ 				right: 10;
+ 				font-size: 3em;
+ 				color: 000;
+ 				opacity: 0.3;
+ 				font-family: impact;
+ 			}
+
+ 			.container{
+ 			background: rgba(0, 0, 0, 0.45);
+ 			width: 50%;
+
+ 			}
+
+ 			.no_iframe{
+ 				display: none;;
+ 			}
+}
+
+@media screen and (max-width: 420px) {
+ 			body{
+ 				background:	goldenrod;
+ 				color: darkorange;
+ 				line-height: 1.5em;
+ 			}
+
+ 				body:after{
+ 				content: "mobile";
+ 				position: absolute;
+ 				bottom: 30;
+ 				right: 10;
+ 				font-size: 3em;
+ 				color: 000;
+ 				opacity: 0.3;
+ 				font-family: impact;
+ 			}
+
+ 			iframe {
+ 				display: none;
+ 			}
+ 			.no_iframe{
+ 				display: block;
+
+ 			}
+
+ 			.no-iframe > button{
+			font-size: 1.5em;}
+
+}

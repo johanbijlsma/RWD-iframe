@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Iframe table</title>
+	<style type="text/css">
+		body{
+			font-family: 'helvetica nueue', helvetica, 'sans-serif';
+			background: #fff;
+		}
+		table{
+			border: none;
+			width: 100%;
+
+		}
+		table th{
+			background: #CCC;
+			text-align: center;
+			padding: 0.3em;
+		}
+		table td{
+			text-align: center;
+
+		}
+
+		table tr{
+			line-height: 2em;
+			border: solid #999 10px;
+		}
+
+		table td:first-child{
+			color: green;
+			text-align: left;
+		}
+
+		table tr:nth-child(odd){
+			background: rgba(0,0,0, 0.05);
+		}
+
+@media screen and (max-width: 420px) {
+		table tr td:nth-child(4), table tr th:nth-child(4){
+			display: none
+		}
+}
+
+@media screen and (max-width: 300px) {
+		table tr td:nth-child(3), table tr th:nth-child(3){
+			display: none
+		}
+}
+
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Vacancy</th>
+			<th>Salary</th>
+			<th>Contract</th>
+			<th>Closing Date</th>
+		</tr>
+		<tr>
+			<td>Job title 1</td>
+			<td>&pound; 50.000,-</td>
+			<td>Full time</td>
+			<td>15.07.2014</td>
+		</tr>
+			<tr>
+			<td>Job title 2</td>
+			<td>&pound; 20.000,-</td>
+			<td>Part time</td>
+			<td>15.07.2014</td>
+		</tr>
+		<tr>
+			<td>Job title 3</td>
+			<td>&pound; 45.000,-</td>
+			<td>Full time</td>
+			<td>15.07.2014</td>
+		</tr>
+			<tr>
+			<td>Job title 4</td>
+			<td>&pound; 80.000,-</td>
+			<td>Full time</td>
+			<td>15.07.2014</td>
+		</tr>
+	</table>
+
+</body>
+</html>
