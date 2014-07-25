@@ -14,7 +14,8 @@ body:after{
  				font-size: 3em;
  				color: 000;
  				opacity: 0.3;
- 				font-family: impact;
+ 				font-family: 'Dosis';
+				z-index: -1;
  			}
 
 footer{
@@ -22,6 +23,7 @@ footer{
 	bottom: 30px;
 	left: 30px;
 	font-family: 'Dosis';
+	z-index: -1;
 }
 
 footer *{
@@ -38,7 +40,7 @@ footer *{
 
 iframe{
 	width: 100%;
-	min-height: 500px;
+	min-height: 250px;
 	margin-top: 1em; 
 }
 
@@ -61,7 +63,7 @@ iframe{
  				font-size: 3em;
  				color: 000;
  				opacity: 0.3;
- 				font-family: impact;
+ 				font-family: 'Dosis';
  			}
 
  			.container{
@@ -90,7 +92,7 @@ iframe{
  				font-size: 3em;
  				color: 000;
  				opacity: 0.3;
- 				font-family: impact;
+ 				font-family: 'Dosis';
  			}
 
  			iframe {
